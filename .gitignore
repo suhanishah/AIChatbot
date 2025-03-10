@@ -1,0 +1,24 @@
+# .gitignore
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.db-wal
+DocumentLayout.json
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore temporary and cache files
+*.cache
+*.log
+
+# Ignore dependency lock files (optional, based on team preference)
+package-lock.json
+
+# Ignore sensitive configuration files
+appsettings.json
+appsettings.Development.json
+secrets.json
